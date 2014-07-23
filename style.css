@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.gridStyle {
+    border: 1px solid rgb(212,212,212);
+    width: 100%; 
+    height: 1200px;
+    min-height: 100%;
+}
+
+.ngTopPanel {
+  line-height: 25px;
+}
+
+.ngCell  {
+  display : table-cell;
+  height: auto !important;
+  overflow:visible;
+  position: static;
+}
+
+.ngRow {
+  display : table-row;
+  height: auto !important;
+  position: static;
+}
+
+.ngCellText{
+  height: auto !important;
+  white-space: normal;
+  overflow:visible;
+}
+
+.ngGrid.unselectable {
+  margin-top: 10px;
+}
