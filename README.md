@@ -24,14 +24,15 @@ The concepts this project will cover are
 
 
 ##Step 3: Tie in your Controller
-* Now that your parseService is finished, we somehow need a way to tie the data we're getting from parseService.getData to our scope to show in our view. This sounds like the perfect use case for a controller. 
-* Open up mainCtrl.js and follow the instructions. The bigger picture here is that we're going to utilize the methods that we added to parseService to do some of the 'heavy' lifting, then just add what we get back from those methods to the $scope
-
+* Now that your itunesService is finished, we somehow need a way to tie the data we're getting from itunesService to our view (index.html)
+* Go to mainCtrl.js and follow the instructions in order to get the itunes data from your service to your view
 
 ##Step4: That's it
-* If all went well you should be able to open up your index.html page and chat with those who also finished. If you got this far, great job! Review angular promises and $http. They're fundamental to any apps built with Angular.
+* If all went well you should be able to open up your index.html page and enter an artist in the input box, hit search then ng-grid will populate with the data.
 
 
 ##Step 5: Black Diamond
-* Right now it just shows the message. The object you get back from parse also has a createdAt property. Change the UI to show the message, and what time it was created at in normal, human readable formats. 
-* Sign up with parse and create your own private chatroom with your own API keys.
+* Go back and look at the original data you're getting from iTunes. There is a lot more that you can play around with. 
+* Add more columns to ng-grid so the user can see more options
+* Add a filtering option so they can filter by price, name, etc etc.
+* Also add a options dropdown so they can select which type of data they want from iTunes. Artist, song, movie, etc.
