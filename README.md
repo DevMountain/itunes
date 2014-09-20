@@ -1,7 +1,7 @@
 DevTunes
 ========
 
-You now should be to the point where you understand the bigger picture of the iTunes web app that has been show to you throughout the class (tylermcginnis.com/itunes). Tonight, you're going to recreate your own version of it which fetches Artists using the iTunes API.  
+You now should be to the point where you understand the bigger picture of the iTunes web app that has been show to you throughout the class (http://tylermcginnis.com/itunes). Tonight, you're going to recreate your own version of it which fetches Artists using the iTunes API.  
 
 The concepts this project will cover are 
 1. $http
