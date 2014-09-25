@@ -27,12 +27,9 @@ The concepts this project will cover are
 * Now that your itunesService is finished, we somehow need a way to tie the data we're getting from itunesService to our view (index.html)
 * Go to mainCtrl.js and follow the instructions in order to get the itunes data from your service to your view
 
-##Step4: That's it
-* If all went well you should be able to open up your index.html page and enter an artist in the input box, hit search then ng-grid will populate with the data.
 
-
-##Step 5: Black Diamond
-* Go back and look at the original data you're getting from iTunes. There is a lot more that you can play around with. 
+##Step 4: Add More Options
+* Go back and look at the original data you're getting from iTunes. There is a lot more that you can play around with...
 * Add more columns to ng-grid so the user can see more options
 * Add a filtering option so they can filter by price, name, etc etc.
 * Also add a options dropdown so they can select which type of data they want from iTunes. Artist, song, movie, etc.(In other words, make it exactly like tylermcginnis.com/itunes)
