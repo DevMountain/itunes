@@ -1,4 +1,4 @@
-DevTunes
+iTunes Angular Clone
 ========
 
 You now should be to the point where you understand the bigger picture of the iTunes web app that has been show to you throughout the class (http://tylermcginnis.com/itunes). Tonight, you're going to recreate your own version of it which fetches Artists using the iTunes API.  
