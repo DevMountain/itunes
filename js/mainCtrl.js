@@ -16,24 +16,9 @@ app.controller('mainCtrl', function ($scope, itunesService) {
 
     //var songsArr = [];
 
-    var reduceData = function (data) {
-        return data.map(function (song) {
-            return {
-                'AlbumArt': song.artworkUrl60,
-                'Artist': song.artistName,
-                'Collection': song.collectionName,
-                'CollectionPrice': song.collectionPrice,
-                'Play': song.previewUrl,
-                'Type': song.kind
-            };
-        });
-    };
-
     $scope.getSongData = function () {
         itunesService.getData($scope.artist).then(function (data) {
-
-            $scope.songData = reduceData(data);
-
+            $scope.songData = data;
         });
     };
 
