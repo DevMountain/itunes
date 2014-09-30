@@ -17,8 +17,8 @@ app.controller('mainCtrl', function ($scope, itunesService) {
     //var songsArr = [];
 
     $scope.getSongData = function () {
-        itunesService.getData($scope.artist).then(function (data) {
-            $scope.songData = data;
+        return itunesService.getData($scope.artist).then(function (data) {
+           return $scope.songData = data;
         });
     };
 

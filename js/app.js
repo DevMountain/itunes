@@ -1,1 +1,1 @@
-var app = angular.module('itunes', ['ngGrid'])
+var app = angular.module('itunes', ['ngGrid', 'myDirectives'])
