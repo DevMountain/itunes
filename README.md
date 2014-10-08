@@ -20,7 +20,7 @@ The concepts this project will cover are
 
 ##Step 2: Build your itunesService
 * In Angular we use 'services' to outsource some of our heavy lifting. That's exactly what we're going to do when we call the iTunes API.
-* Open up itunesService.js and read the instructions. The bigger picture is that this service is going to havea method which takes in an artist name as the parameter, then uses a JSONP http request to call the iTunes API and retrieve the data about that specific artist.
+* Open up itunesService.js and read the instructions. The bigger picture is that this service is going to have a method which takes in an artist name as the parameter, then uses a JSONP http request to call the iTunes API and retrieve the data about that specific artist.
 
 
 ##Step 3: Tie in your Controller
@@ -32,4 +32,4 @@ The concepts this project will cover are
 * Go back and look at the original data you're getting from iTunes. There is a lot more that you can play around with...
 * Add more columns to ng-grid so the user can see more options
 * Add a filtering option so they can filter by price, name, etc etc.
-* Also add a options dropdown so they can select which type of data they want from iTunes. Artist, song, movie, etc.(In other words, make it exactly like tylermcginnis.com/itunes)
+* Also add a options dropdown so they can select which type of data they want from iTunes. Artist, song, movie, etc.(In other words, make it exactly like http://tylermcginnis.com/itunes)
