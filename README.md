@@ -1,6 +1,12 @@
 iTunes Angular Clone
 ========
 
+### Learning Objectives (Students will…):
+  - be able to make $http requests to various APIs
+  - be able to use outside directives and know how to inject those modules into their application
+  - be able to create, return, and resolve their own promises with $q
+
+
 You now should be to the point where you understand the bigger picture of the iTunes web app that has been show to you throughout the class (http://tylermcginnis.com/itunes). Tonight, you're going to recreate your own version of it which fetches Artists using the iTunes API.  
 
 The concepts this project will cover are 
