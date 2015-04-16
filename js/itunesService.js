@@ -17,12 +17,12 @@ app.service('itunesService', function($http, $q){
     		method: 'JSONP',
     		url: 'https://itunes.apple.com/search?term=' + artist + '&callback=JSON_CALLBACK'
     	 }).then(function(response) {
-    	 	//wconsole.log(response)
+    	 	console.log(response)
     	 	response = response.data.results
     	 	var arr = []
     	 	for (var i = 0; i < response.length; i++) {
     	 		var obj = {
-    	 			AlbumArt: response[i].artistUrl30,
+    	 			AlbumArt: response[i].artworkUrl60,
     	 			Artist: response[i].artistName,
     	 			Collection: response[i].collectionName,
     	 			CollectionPrice: response[i].collectionPrice,
