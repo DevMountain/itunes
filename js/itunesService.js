@@ -11,11 +11,11 @@ app.service('itunesService', function($http, $q){
 
     //Code here
 
-    this.artistInfo = function(artist) {
+    this.artistInfo = function(artist, type) {
     	var defer = $q.defer();
     	$http({
     		method: 'JSONP',
-    		url: 'https://itunes.apple.com/search?term=' + artist + '&callback=JSON_CALLBACK'
+    		url: 'https://itunes.apple.com/search?term=' + artist + '&entity=' + type +'&callback=JSON_CALLBACK'
     	 }).then(function(response) {
     	 	console.log(response)
     	 	response = response.data.results
@@ -24,6 +24,7 @@ app.service('itunesService', function($http, $q){
     	 		var obj = {
     	 			AlbumArt: response[i].artworkUrl60,
     	 			Artist: response[i].artistName,
+    	 			songName: response[i].trackName,
     	 			Collection: response[i].collectionName,
     	 			CollectionPrice: response[i].collectionPrice,
     	 			Play: response[i].previewUrl,
