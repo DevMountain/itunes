@@ -15,8 +15,16 @@
           </div>
           <form class="navbar-form navbar-left" role="search">
             <div class="form-group">
-              <input type="text" class="form-control" ng-model="artist" placeholder="Artist Name" >
-              <button class="btn btn-primary" ng-click="getSongData()"> Submit </button>
+              <input type="text" class="form-control" ng-model="artist" placeholder="Artist Name" ng-change='getSongData()' > 
+              <select class="form-control ng-valid ng-dirty" ng-model="defaultInfo.mediaType" ng-change="getAjaxSong()">
+                  <option value="all" selected="">All</option>
+                  <option value="musicVideo" selected="">Music Video</option>
+                  <option value="movie">Movie</option>
+                  <option value="musicTrack">Music</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="tvShow">TV Show</option>
+              </select>
+              <!-- this is important -->
             </div>
           </form>
         </div>
