@@ -21,7 +21,7 @@ The concepts this project will cover are
 * Go and check out http://tylermcginnis.com/itunes. Although that example includes a bunch of filtering options, this project will just be fetching data by artist name.
 * Examine the codebase. Like the ChatRoom project, the index.html page is already built for you. Your main goal is to fill in mainCtrl.js and itunesService.js
 * If you're feeling adventurous, feel free to change the CSS how you would like.
-* Head over to http://angular-ui.github.io/ng-grid/ and check out the examples there. We will be using ng-grid to display the data we get from iTunes. Although all this code will already be in place for you, it's a good idea to get familiar with ng-grid so you know exactly what that code is doing.
+* Head over to http://angular-ui.github.io/ui-grid/ and check out the examples there. We will be using ng-grid to display the data we get from iTunes. Although all this code will already be in place for you, it's a good idea to get familiar with ng-grid so you know exactly what that code is doing.
 
 
 ##Step 2: Build your itunesService
