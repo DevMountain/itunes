@@ -46,6 +46,7 @@ The concepts this project will cover are
 In this project, the data was brought into the controller, and the controller was responsible for "massaging" the data (making it look nice, getting what it needed etc) for the view. This works, because the point of a service is to help multiple controllers (each controller could manipulate the data as it needed). However, if multiple controllers needed the same data, it would make sense to "massage" (clean up) the data before sending, wouldn't it?
 
 OPTION 1 and 2:
-Option 1: Make your controller skinnier by cleaning up the data before sending it to your controller. (Take the work you've done on your controller, and put this into your service, before returning the data to your controller.)
 
-Option 2: Your service has a service!  Create a service that does the work your controller was doing, and inject this dependency into your current service.  Have it do to the work!
+* Option 1: Make your controller skinnier by cleaning up the data before sending it to your controller. (Take the work you've done on your controller, and put this into your service, before returning the data to your controller.)
+
+* Option 2: Your service has a service!  Create a service that does the work your controller was doing, and inject this dependency into your current service.  Have it do to the work!
