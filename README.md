@@ -49,4 +49,4 @@ OPTION 1 and 2:
 
 * Option 1: Make your controller skinnier by cleaning up the data before sending it to your controller. (Take the work you've done on your controller, and put this into your service, before returning the data to your controller.)
 
-* Option 2: Your service has a service!  Create a service that does the work your controller was doing, and inject this dependency into your current service.  Have it do to the work!
+* Option 2: Your service has a service!  Create a service that does the work your controller was doing, and inject this dependency into your current service.  Have this second service do the work!
