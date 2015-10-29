@@ -43,7 +43,7 @@ The concepts this project will cover are
 
 
 ##BLACK DIAMOND
-In this project, the data was brought into the controller, and the controller was responsible for "massaging" the data (making it look nice, getting what it needed etc) for the view. This works, because the point of a service is to help multiple controllers (each controller could manipulate the data as it needed). However, if multiple controllers needed the same data, it would make sense to "massage" (clean up) the data before sending, wouldn't it?
+In this project, the data was brought into the controller, and the controller was responsible for "massaging" the data (making it look nice, getting what it needed etc) for the view. This works, because the point of a service is to help multiple controllers (each controller could manipulate the data as it needed). However, if multiple controllers needed the same data, it would make sense to "massage" (clean up) the data in the service before sending it to the controller(s), wouldn't it?
 
 OPTION 1 and 2:
 
