@@ -9,7 +9,7 @@ iTunes Angular Clone
 
 You now should be to the point where you understand the bigger picture of the iTunes web app that has been show to you throughout the class (http://tylermcginnis.com/itunes). Tonight, you're going to recreate your own version of it which fetches Artists using the iTunes API.  
 
-The concepts this project will cover are 
+The concepts this project will cover are
 1. $http
 2. Angular Services
 3. Passing a Service into your Controller
@@ -39,3 +39,13 @@ The concepts this project will cover are
 * Add more columns to ng-grid so the user can see more options
 * Add a filtering option so they can filter by price, name, etc etc.
 * Also add a options dropdown so they can select which type of data they want from iTunes. Artist, song, movie, etc.(In other words, make it exactly like http://tylermcginnis.com/itunes)
+
+
+
+*** BLACK DIAMOND, AND COMMENTS ABOUT THIS PROJECT***
+In this project, the data was brought into the controller, and the controller was responsible for "massaging" the data (making it look nice, getting what it needed etc) for the view. This works, because the point of a service is to help multiple controllers (each controller could manipulate the data as it needed). However, if multiple controllers needed the same data, it would make sense to "massage" (clean up) the data before sending, wouldn't it?
+
+OPTION 1 and 2:
+Option 1: Make your controller skinnier by cleaning up the data before sending it to your controller. (Take the work you've done on your controller, and put this into your service, before returning the data to your controller.)
+
+Option 2: Your service has a service!  Create a service that does the work your controller was doing, and inject this dependency into your current service.  Have it do to the work!
