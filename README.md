@@ -9,11 +9,11 @@ iTunes Angular Clone
 
 You now should be to the point where you understand the bigger picture of the iTunes web app that has been show to you throughout the class (http://tylermcginnis.com/itunes). Tonight, you're going to recreate your own version of it which fetches Artists using the iTunes API.  
 
-The concepts this project will cover are 
+The concepts this project will cover are:
 1. $http
 2. Angular Services
-3. Passing a Service into your Controller
-4. Working with outside code (ui-grid)
+3. Injecting a service into your controller
+4. Working with third party angular modules (ui-grid)
 
 
 ##Step 1: Clone and Dissect the Repo
