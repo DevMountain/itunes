@@ -1,6 +1,4 @@
-var app = angular.module('itunes');
-
-app.service('itunesService', function($http, $q){
+angular.module('itunes').service('itunesService', function($http, $q){
   //This service is what will do the 'heavy lifting' and get our data from the iTunes API.
   //Also note that we're using a 'service' and not a 'factory' so all your methods you want to call in your controller need to be on 'this'.
 
