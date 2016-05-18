@@ -8,6 +8,8 @@ Use Angular, services, and $http to create an iTunes web application
 
 You now should be to the point where you create a full web application, like [this](http://tylermcginnis.com/itunes). Now, you're going to recreate your own version of it which fetches Artists using the iTunes API.  
 
+![alt text](https://github.com/DevMountain/itunes/blob/master/Preview.png?raw=true)
+
 The concepts this project will cover are:
 
 1. $http
