@@ -22,7 +22,7 @@ The concepts this project will cover are:
 ## Instructions
 ### Clone and Dissect the Repo
 #### 
-* Fork and clone this repository.
+* Fork and clone [this](https://github.com/devmountain/itunes) repository.
 * Go and check out http://tylermcginnis.com/itunes. Although that example includes a bunch of filtering options, this project will just be fetching data by artist name.
 * Examine the codebase. Like the ChatRoom project, the index.html page is already built for you. Your main goal is to fill in mainCtrl.js and itunesService.js
 * If you're feeling adventurous, feel free to change the CSS how you would like.
