@@ -22,7 +22,9 @@ this.getArtist = function(artist){
         Collection: parseResponse[i].collectionName,
         CollectionPrice: parseResponse[i].trackPrice,
         Play: parseResponse[i].previewUrl,
-        Type: parseResponse[i].wrapperType
+        Type: parseResponse[i].wrapperType,
+        Genre: parseResponse[i].primaryGenreName,
+
       })
     }
   deferred.resolve(songArray);

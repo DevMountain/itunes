@@ -3,7 +3,7 @@ angular.module('itunes').controller('mainCtrl', function($scope, itunesService) 
     //the 'data' property. The value is 'songData'. That means ng-grid is looking for songData on $scope and is putting whatever songData is into the grid.
     //this means when you make your iTunes request, you'll need to get back the information, parse it accordingly, then set it to songData on the scope -> $scope.songData = ...
     $scope.gridOptions = {
-        data: 'songData',
+        data: 'songData | filter: myFilter',
         height: '110px',
         sortInfo: {
             fields: ['Song', 'Artist', 'Collection', 'Type'],
@@ -31,7 +31,11 @@ angular.module('itunes').controller('mainCtrl', function($scope, itunesService) 
         }, {
             field: 'CollectionPrice',
             displayName: 'Collection Price'
-        }, ]
+        }, {
+            field: 'Genre',
+            displayName: 'Genre'
+        }
+      ]
     };
 
     //Our controller is what's going to connect our 'heavy lifting' itunesService with our view (index.html) so our user can see the results they get back from itunes.
