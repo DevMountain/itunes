@@ -8,6 +8,8 @@ iTunes Angular Clone
 
 Use Angular, services, and $http to create an iTunes web application
 
+You now should be to the point where you create a full web application, like [this](https://smrtsmrf.github.io/day14-project-itunes/). Now, you're going to recreate your own version of it which fetches Artists using the iTunes API.
+
 
 ![alt text](https://github.com/DevMountain/itunes/blob/master/Preview.png?raw=true)
 
@@ -36,13 +38,13 @@ The concepts this project will cover are:
 ### Tie in your Controller
 ####
 * Now that your itunesService is finished, we somehow need a way to tie the data we're getting from itunesService to our view (index.html)
-* Go to mainCtrl.js and follow the instructions in order to get the itunes data from your service to your view
+* Go to mainCtrl.js and follow the instructions in order to get the itunes data from your service to your view.
 
 
 ### Add More Options
 ####
 * Go back and look at the original data you're getting from iTunes. There is a lot more that you can play around with...
-* Add more columns to ui-grid so the user can see more options
+* Add more columns to ui-grid so the user can see more options.
 * Add a filtering option so they can filter by price, name, etc etc.
 * Also add a options dropdown so they can select which type of data they want from iTunes. Artist, song, movie, etc.
 
